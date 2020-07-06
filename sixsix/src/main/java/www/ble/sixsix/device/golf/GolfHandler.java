@@ -1,7 +1,5 @@
 package www.ble.sixsix.device.golf;
 
-import android.support.annotation.NonNull;
-
 import www.ble.sixsix.Manager;
 import www.ble.sixsix.base.IHandler;
 import www.ble.sixsix.util.ConvertTool;
@@ -16,7 +14,7 @@ public class GolfHandler implements IHandler {
     }
 
     @Override
-    public void handleData(@NonNull byte[] data) {
+    public void handleData(byte[] data) {
         //数据长度不对
         if (data.length < 6) {
             handleIncorrectData();

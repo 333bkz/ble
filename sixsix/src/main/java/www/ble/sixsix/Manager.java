@@ -4,7 +4,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.content.Context;
 import android.os.Handler;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
 import java.lang.ref.WeakReference;

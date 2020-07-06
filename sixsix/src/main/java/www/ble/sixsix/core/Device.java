@@ -11,8 +11,9 @@ import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.CallSuper;
 import android.text.TextUtils;
+
+import androidx.annotation.CallSuper;
 
 import java.util.List;
 import java.util.Map;
